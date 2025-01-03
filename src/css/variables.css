@@ -1,6 +1,6 @@
 :root {
-    --background: hsl(228, 25%, 15%);
-    --background-card: hsl(227, 20%, 25%);
+    --background-dark: hsl(228, 25%, 15%);
+    --background-light: hsl(227, 20%, 25%);
 
     --text-color: hsl(200, 40%, 85%);
     --text-high-color: hsl(120, 100%, 65%);

@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Frontend Mentor | Advice generator app</title>
+  </head>
 
-  <link rel="stylesheet" href="./src/css/reset.css">
-  <link rel="stylesheet" href="src/css/variables.css">
-  <link rel="stylesheet" href="./src/css/style.css">
-  <title>Frontend Mentor | Advice generator app</title>
-</head>
+  <body>
+    <main>
+      <div class="advice-card">
+        <p class="number">ADVICE #117</p>
+        <p class="words">“It is easy to sit up and take notice, what’s difficult is getting up and taking action.”</p>
 
-<body>
-  <main>
-    <div class="advice-card">
-      <p class="number">ADVICE #117</p>
-      <p class="words">“It is easy to sit up and take notice, what’s difficult is getting up and taking action.”</p>
+        <picture>
+          <source
+            srcset="./src/images/pattern-divider-mobile.svg"
+            media="(max-width: 768px)"/>
+          <img
+            class="bar"
+            src="./src/images/pattern-divider-desktop.svg"
+            alt="Pattern divider"/>
+        </picture>
 
-      <picture>
-        <source srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 768px)">
-        <img class="bar" src="./src/images/pattern-divider-desktop.svg" alt="Pattern divider">
-      </picture>      
-    
-    
-    <button class="dice">
-      <img src="src/images/icon-dice.svg" alt="Dice icon">
-    </button>
-        
-    </div>
+        <button class="dice">
+          <img src="src/images/icon-dice.svg" alt="Dice icon" />
+        </button>
+      </div>
     </main>
-</body>
-
-
+  </body>
 </html>

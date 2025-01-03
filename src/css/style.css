@@ -1,5 +1,9 @@
+html {
+    font-family: Manrope;
+}
+
 body {
-    background-color: var(--background);
+    background-color: var(--background-dark);
 }
 
 main {
@@ -8,8 +12,6 @@ main {
     align-items: center;
     height: 100vh;
 
-    font-family: Manrope;
-    font-weight: 800;
 }
 
 .advice-card {
@@ -18,12 +20,14 @@ main {
     align-items: center;
     text-align: center;
     
-    width: 540px;
+    max-width: 540px;
     
-    background-color: var(--background-card);
     padding: 0px 48px;
-    margin: 0px 20px;
     border-radius: 15px;
+    margin: 0px 20px;
+    
+    background-color: var(--background-light);
+    font-weight: 800;
 }
 
 .advice-card .number {
@@ -31,14 +35,14 @@ main {
     letter-spacing: 4px;
     font-size: 13px;
 
-    margin-top: 47px;
+    margin-top: 45px;
 }
 
 .advice-card .words {
+    margin-top: 25px;
+
     color: var(--text-color);
     font-size: 27px; 
-
-    margin-top: 26px;
 }
 
 .advice-card .bar{
@@ -54,7 +58,6 @@ main {
     transform: translateY(55%);  
   }
   .advice-card .dice:hover {
-    color: #53FFAB;
     cursor: pointer;
     box-shadow: 0px 6px 25px var(--text-high-color);
     transition: ease-in 0.3s;
